@@ -1,5 +1,5 @@
-# **Coffee Orders Analysis Project**
-
+# **Coffee Orders Analysis Project with dashboard**
+![](dashboard.png)
 ### **Objective**  
 To analyze and visualize coffee sales data to uncover trends, identify top customers, and provide actionable insights for business decisions.
 
@@ -25,17 +25,28 @@ This project involved transforming raw coffee sales data into meaningful insight
   - Verified data integrity, ensuring correct product IDs matched coffee types and sizes.
 
 ---
+Initial sheets I had to work with while populating the orders sheet
+
+![](products1.png) ![](customers1.png) ![](orders1.png)
 
 #### **2. Data Analysis**
 - **Key Metrics Calculated:**  
-  - **Sales:** `Sales = Quantity * Unit Price`  
+  - **Sales:** `Sales = Quantity * Unit Price` 
   - **Profit:** Calculated per product based on margin percentage.  
-  - **Customer Loyalty:** Segmented customers with loyalty cards for targeted analysis.  
+  - **Customer Loyalty:** Segmented customers with loyalty cards for targeted analysis.
+  
+  ![](orders2.png)
 
-- **Aggregations:**  
-  - Monthly and yearly sales trends by coffee type and country.  
-  - Top-performing products and customer insights.  
+- **Aggregations using pivot tables as shown below:**  
+  - Monthly and yearly sales trends by coffee type.  
+  - Top-5 customers.  
   - Contribution of each country to overall sales.
+
+  ![](total-sales.png)
+  
+  ---
+  ![](top5.png)
+  ![](top-countries.png)
 
 ---
 
@@ -74,11 +85,11 @@ This project involved transforming raw coffee sales data into meaningful insight
    - A dynamic dashboard summarizing insights.
 
 2. **Documentation:**  
-   A detailed PDF outlining the steps, challenges, and solutions (like this write-up).  
+   A detailed write-up outlining the steps, challenges, and solutions.  
 
 3. **Visual Examples:**  
    - Screenshots of dashboards, charts, and key metrics.  
-   - A short video demonstrating interactive elements like filters.  
+     
 
 ---
 
@@ -94,6 +105,6 @@ This project involved transforming raw coffee sales data into meaningful insight
 This project demonstrated my ability to clean and structure data, analyze it for insights, and present findings visually engagingly. It highlights my data manipulation, visualization, and storytelling skills—key attributes for a data analyst role.
 
 ---
-
+![](coffee-seeds.jpg)
 
 
